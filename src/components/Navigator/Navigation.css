@@ -1,0 +1,22 @@
+img{
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+header{
+    text-align: center;
+    overflow: hidden;
+    background-image:linear-gradient(to right,rgb(121, 199, 255), rgb(89, 0, 255));
+    padding: 20px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius: 20px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 12px;
+    float: center;
+    text-align: center;
+}
