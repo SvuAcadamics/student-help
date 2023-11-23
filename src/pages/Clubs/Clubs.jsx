@@ -2,8 +2,9 @@ import React from 'react'
 
 const Clubs = () => {
   return (
-    <div>Clubs</div>
-  )
+    <h1>Clubs</h1>
+
+)
 }
 
 export default Clubs
