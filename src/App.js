@@ -4,7 +4,7 @@ import Home from './pages/Home/Home';
 import Questionpaper from './pages/Questionpapers/Questionpaper';
 import Navigation from './components/Navigator/Navigation';
 import Syllabus from './pages/Syllabus/Syllabus';
-import Clubs from './pages/Clubs/Clubs';
+import AboutUs from './pages/AboutUs/AboutUs';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/syllabus" element={<Syllabus />} />
         <Route path="/questionpaper" element={<Questionpaper />} />
-        <Route path='/clubs' element={<Clubs/>}/>
+        <Route path='/AboutUs' element={<AboutUs/>}/>
       </Routes>
     </Router>
   );
