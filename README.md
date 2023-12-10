@@ -42,12 +42,10 @@ This web application is designed to help students find and download academic res
    - List of semesters or dropdown menu for semester selection
    - Cards for each subject with links to respective resources
 
-7. **Contact Page:**
-   - Contact information
-   - Feedback form or email link for users to get in touch
-
 8. **About Us Page:**
    - Information about the website, purpose, and team (if applicable)
+   - Contact information
+   - Feedback form or email link for users to get in touch
 
 ## UI/UX Considerations
 - Clean and user-friendly design
