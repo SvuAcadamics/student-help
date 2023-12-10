@@ -14,7 +14,7 @@ const Navigation = () => {
           <Link to="/">Home</Link>
           <Link to="/syllabus">Syllabus</Link>
           <Link to='/questionpaper'>Question Paper</Link>
-          <Link to='/clubs'>Clubs</Link>
+          <Link to='/AboutUs'>About Us</Link>
         </div>
       </nav>
       </header>
