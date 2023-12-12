@@ -13,7 +13,7 @@ img{
 header{
   text-align: center;
   overflow: hidden;
-  background-image:linear-gradient(to right,rgb(121, 199, 255), rgb(89, 0, 255));
+  background-color: rgba(76, 96, 120, 0.79);
   border-bottom-left-radius:20px ;
   border-bottom-right-radius: 20px;
 }
