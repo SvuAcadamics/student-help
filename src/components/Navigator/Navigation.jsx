@@ -5,7 +5,7 @@ import Image from '../../Images/Logo.png'
 
 const Navigation = () => {
   return (
-    <>
+    <>    
     <header>
       <nav>
       <img src={Image} alt="logo" />
