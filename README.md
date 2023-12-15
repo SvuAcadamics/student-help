@@ -11,7 +11,13 @@ Welcome to the Academic Resources Website! This website aims to provide an organ
 6. [Contact](#contact)
 
 ## Project Overview
-This web application is designed to help students find and download academic resources, including question papers, syllabus, and references. The content is organized by branches, semesters, and subjects, making it easy for users to navigate and locate the materials they need.
+This web application is designed to help students find and download academic resources, including question papers, syllabus, and references. The content is organized by branches, semesters, and subjects, making it easy for users to navigate and locate the materials they need. 
+
+## Color Pallete used :
+1. [092635] (rgb(9, 38, 53))
+2. [1B4242] (rgb(27, 66, 66))
+3. [5C8374] (rgb(92, 131, 116))
+4. [9EC8B9] (rgb(158, 200, 185))
 
 ## Pages and Features
 1. **Homepage:**
@@ -42,12 +48,10 @@ This web application is designed to help students find and download academic res
    - List of semesters or dropdown menu for semester selection
    - Cards for each subject with links to respective resources
 
-7. **Contact Page:**
-   - Contact information
-   - Feedback form or email link for users to get in touch
-
 8. **About Us Page:**
    - Information about the website, purpose, and team (if applicable)
+   - Contact information
+   - Feedback form or email link for users to get in touch
 
 ## UI/UX Considerations
 - Clean and user-friendly design
