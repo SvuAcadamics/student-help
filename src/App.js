@@ -5,6 +5,7 @@ import Questionpaper from './pages/Questionpapers/Questionpaper';
 import Syllabus from './pages/Syllabus/Syllabus';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Navbar from './components/Navbar/Navbar';
+import './App.css';
 
 const App = () => {
   
@@ -12,7 +13,7 @@ const App = () => {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/syllabus" element={<Syllabus />} />
         <Route path="/questionpaper" element={<Questionpaper />} />
         <Route path='/AboutUs' element={<AboutUs/>} />
