@@ -16,7 +16,7 @@
 
 1. **Avuku Pragatheswari:**
    - [Task 1-Development](folder1/task1.md)
-   - [Task 2-Collecting Info](folder2/task2.md)
+   - [Task 2-Collecting Info - ](folder2/task2.md) 
 
 2. **Avvaru Pranavi:**
    - [Task 1-Development](folder1/task1.md)
