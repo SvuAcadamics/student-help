@@ -1,0 +1,144 @@
+.for-home-screen{
+    display: flex;
+    justify-content: space-evenly;
+    height: 89vh;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling for overflowing content */
+    width: 100%;
+    scroll-snap-type: x mandatory; /* Enable snap points for horizontal scrolling */
+}
+
+.for-branch{
+    color: white;
+    font-size: 2rem;
+    margin: 1.5rem;
+    /* font-family: 'inria serif' */
+}
+
+.home{
+    background-color: #272829;
+    font-family: 'inria serif';
+}
+
+.explore{  
+    margin-left: 5rem;  
+    color: white;
+    width: 50%;
+    /* font-family: 'inria serif'; */
+}
+
+.for-start-para{
+    font-size: 2rem;
+    margin: 0.5rem;
+    /* background-color: green; */
+}
+
+.for-middle-para{
+    margin: 0.5rem;
+    /* background-color: red; */
+    font-size: 2.5rem;
+}
+
+.home-para{
+    /* background-color: blue; */
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.coloredtext{
+    color: #FFA8A7;
+}
+
+
+
+.for-image-div{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.for-home-img{
+    width: 23rem;
+}
+
+.for-buttons{
+margin-left: -0.5rem;
+}
+
+.for-cse{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.for-sub-para{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.card-image{
+    margin :1rem;
+    margin-bottom: 0;
+    height:10rem ;
+    width: 12rem;
+    border-radius: 10px;
+}
+
+.card-container{
+    display: inline-block;
+    flex-shrink: 0; /* Prevent cards from shrinking to fit */
+    height: 22rem;
+    width: 14rem;
+    margin-left: 1rem;
+    margin-right: 1rem; /* Add some space between cards */
+    border-radius: 10px;
+    background-color: #4B5A6A;
+    scroll-snap-align: start; /* Snap points for horizontal scrolling */
+    transition: transform 0.3s ease;
+}
+
+
+
+.for-but{
+    background-color:#4B5A6A;
+    color: white;
+    font-family: 'inria serif';
+    font-size: 1.2rem;
+    border: none;
+    margin: 1rem;
+    margin-left: 0.2;
+    padding: 0.8rem;
+    width: 7rem;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 700px) {
+    .cards {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+        align-items: center; /* Center cards on smaller screens */
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .for-home-screen{
+        background-color: #272829;
+        align-items: center;
+        max-width: 100vw;
+        text-align: center;
+    }
+    
+    .for-image-div{
+        display: none;
+    }
+    .explore{ 
+        margin: 1.2rem;
+        width: 100%; 
+        color: white;
+        font-family: 'inria serif';
+    }
+}

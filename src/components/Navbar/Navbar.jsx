@@ -11,18 +11,20 @@ const Navbar = () => {
   const handleToggle = () => {
     setIsMobile(!isMobile);
   };
+  
+  const handleLinkClick = () => {
+    setIsMobile(false); // Close the menu when a link is clicked
+  };
 
   return (
     <nav className="navbar">
-      <div className="logo">Your Logo</div>
+      <div className="logo">SVUA</div>
 
       <div className={`menu ${isMobile ? 'active' : ''}`}>
-        <Link className="link-for-data" to="/home">Home</Link>
-        <Link className="link-for-data" to="/syllabus">Syllabus</Link>
-        <Link className="link-for-data" to="/questionpaper">Question Paper</Link>
-        <Link className="link-for-data" to="/AboutUs">About us</Link>
-        
-
+        <Link className="link-for-data" to="/home" onClick={handleLinkClick}>Home</Link>
+        <Link className="link-for-data" to="/syllabus" onClick={handleLinkClick}>Syllabus</Link>
+        <Link className="link-for-data" to="/questionpaper" onClick={handleLinkClick}>Question Paper</Link>
+        <Link className="link-for-data" to="/aboutUs" onClick={handleLinkClick}>About us</Link>
       </div>
 
       <div className="toggle-button" onClick={handleToggle}>
