@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Questionpaper from './pages/Questionpapers/Questionpaper';
-import Navigation from './components/Navigator/Navigation';
 import Syllabus from './pages/Syllabus/Syllabus';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Navbar from './components/Navbar/Navbar';
