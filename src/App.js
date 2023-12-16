@@ -7,12 +7,12 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
 
-const App = () => {
-  
+const App = () => {  
   return (
     <Router>
       <Navbar/>
       <Routes>
+        <Route path='/' element={<Home/>} />
         <Route path="/home" element={<Home />} />
         <Route path="/syllabus" element={<Syllabus />} />
         <Route path="/questionpaper" element={<Questionpaper />} />
