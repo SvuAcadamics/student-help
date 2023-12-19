@@ -1,4 +1,54 @@
-.syllabus{
-    margin: 0;
-    padding: 0;    
+/* Syllabus.css */
+
+.for-overallproject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 1rem;
+}
+.syllabus {
+  background-color: #4b5a6a71; /* Dark black background */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.syllabus h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.syllabus p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.syllabus .dropdown {
+  margin-bottom: 20px;
+}
+
+.syllabus .label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.syllabus select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #00000077; /* Change this to black (#000) */
+  color: #fff; /* White text */
+}
+
+/* Add space between label and select box */
+.syllabus .dropdown label {
+  display: block;
+  margin-bottom: 5px; /* Adjust the spacing as needed */
 }
