@@ -1,0 +1,61 @@
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+     /* Align cards with space in between */
+    align-items: center;
+}
+
+/* .card-container {
+    display: inline-block;
+    flex-shrink: 0; 
+    height: 22rem;
+    width: 14rem;
+   
+    margin:1rem;
+    border-radius: 10px;
+    scroll-snap-align: start; 
+    transition: transform 0.3s ease;
+     
+} */
+
+.card-image{
+    margin :1rem;
+    margin-bottom: 0;
+    height:10rem ;
+    width: 12rem;
+    float: left;
+    border-radius: 10px;
+}
+.card-container {
+    /* Adjust the width to fit three cards in one row */
+    display: inline;
+    height: 12rem;
+    width: calc((123% - 1rem) / 4); /* (total width - total margin space) / number of cards */
+    margin: 1rem;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    box-shadow: 0 0 5px rgba(102, 252, 241, 0.5);
+}
+
+
+.for-branch{
+    color: white;
+    font-size: 2rem;
+    margin: 1.5rem;
+    /* font-family: 'inria serif' */
+}
+
+.for-cse{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.for-sub-para{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin: 0.5rem;
+}
