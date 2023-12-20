@@ -6,9 +6,41 @@
 }
 .cards {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling for overflowing content */
-    width: 100%;
-    scroll-snap-type: x mandatory; /* Enable snap points for horizontal scrolling */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+     /* Align cards with space in between */
+    align-items: center;
+}
+
+/* .card-container {
+    display: inline-block;
+    flex-shrink: 0; 
+    height: 22rem;
+    width: 14rem;
+   
+    margin:1rem;
+    border-radius: 10px;
+    scroll-snap-align: start; 
+    transition: transform 0.3s ease;
+     
+} */
+
+.card-image{
+    margin :1rem;
+    margin-bottom: 0;
+    height:10rem ;
+    width: 12rem;
+    float: left;
+    border-radius: 10px;
+}
+.card-container {
+    /* Adjust the width to fit three cards in one row */
+    display: inline;
+    height: 12rem;
+    width: calc((123% - 1rem) / 4); /* (total width - total margin space) / number of cards */
+    margin: 1rem;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    box-shadow: 0 0 5px rgba(102, 252, 241, 0.5);
 }
 
 .for-branch{
@@ -19,7 +51,7 @@
 }
 
 .home{
-    background-color: #272829;
+    background-color: #1f2833;
     font-family: 'inria serif';
 }
 
@@ -49,7 +81,7 @@
 }
 
 .coloredtext{
-    color: #FFA8A7;
+    color: #66fcf1;
 }
 
 
@@ -66,6 +98,7 @@
 
 .for-buttons{
 margin-left: -0.5rem;
+
 }
 
 .for-cse{
@@ -82,31 +115,12 @@ margin-left: -0.5rem;
     margin: 0.5rem;
 }
 
-.card-image{
-    margin :1rem;
-    margin-bottom: 0;
-    height:10rem ;
-    width: 12rem;
-    border-radius: 10px;
-}
 
-.card-container{
-    display: inline-block;
-    flex-shrink: 0; /* Prevent cards from shrinking to fit */
-    height: 22rem;
-    width: 14rem;
-    margin-left: 1rem;
-    margin-right: 1rem; /* Add some space between cards */
-    border-radius: 10px;
-    background-color: #4B5A6A;
-    scroll-snap-align: start; /* Snap points for horizontal scrolling */
-    transition: transform 0.3s ease;
-}
+
 
 
 
 .for-but{
-    background-color:#4B5A6A;
     color: white;
     font-family: 'inria serif';
     font-size: 1.2rem;
@@ -116,6 +130,7 @@ margin-left: -0.5rem;
     padding: 0.8rem;
     width: 7rem;
     border-radius: 10px;
+
 }
 @media only screen and (max-width: 700px) {
     .cards {

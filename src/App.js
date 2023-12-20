@@ -9,6 +9,7 @@ import Navbar from './components/Navbar/Navbar';
 import Download from './components/Download/Download';
 
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/questionpaper" element={<Questionpaper />} />
         <Route path='/AboutUs' element={<AboutUs/>} />
       </Routes>
+      <Footer/>
     </Router>
 
   );

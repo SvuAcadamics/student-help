@@ -33,7 +33,7 @@ function Home() {
           <img className="for-home-img" src={side} />
         </div>
       </div>
-      <p className="for-branch">Branches</p>
+      <p className="for-branch">Courses</p>
       <div className="cards">
         <div className="card-container">
           <img src={cse} className="card-image" />
