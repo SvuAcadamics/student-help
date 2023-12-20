@@ -1,4 +1,4 @@
-// Syllabus.jsx
+// question.jsx
 import React, { useState } from 'react';
 import './QuestionPaper.css';
 import Dropdown from '../../components/DropDown/Dropdown';
@@ -73,11 +73,11 @@ const Questionpaper = () => {
   };
   
   return (
-    <div className='for-overallproject'>
-      <div className='syllabus'>
-        <h1>Syllabus</h1>
+    <div className='for-overallproject-que'>
+      <div className='question'>
+        <h1>Question  Paper</h1>
         <div>
-          <p>Select the below dropdowns to get the Syllabus Copy</p>
+          <p>Select the below dropdowns to get the question Copy</p>
           <div>
             <Dropdown label="Select The Branch :" options={optionsForBranch} onSelect={setSelectedBranch} placeholder="Select the branch" />
             <br />
