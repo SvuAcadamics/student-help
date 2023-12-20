@@ -11,11 +11,14 @@ import Download from './components/Download/Download';
 import './App.css';
 
 
+
 const App = () => {
+
   return (
     <Router>
       <Navbar/>
       <Routes>
+        <Route path='/' element={<Home/>} />
         <Route path="/home" element={<Home />} />
         <Route path="/syllabus" element={<Syllabus />} />
         <Route path="/questionpaper" element={<Questionpaper />} />

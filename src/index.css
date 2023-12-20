@@ -12,40 +12,6 @@ code {
     monospace;
 }
 
-/* Dark Theme Colors */
-:root {
-  --primary: #092635;
-  --secondary: #1B4242;
-  --accent: #5C8374;
-  --background: #1B4242;
-  --text: #9EC8B9;
-  --hover: #9EC8B9;
-}
-
-/* Dark Theme Variables */
-:root {
-  --body: var(--primary);
-  --button-background: var(--accent);
-  --button-text: var(--secondary);
-  --button-hover: var(--hover);
-  /* Add more variables as needed */
-}
-
-/* Light Theme Colors */
-:root.light {
-  --primary: #092635;
-  --secondary: #1B4242;
-  --accent: #5C8374;
-  --background: #9EC8B9;
-  --text: #092635;
-  --hover: #1B4242;
-}
-
-/* Light Theme Variables */
-:root.light {
-  --body: var(--background);
-  --button-background: var(--accent);
-  --button-text: var(--secondary);
-  --button-hover: var(--hover);
-  /* Add more variables as needed */
+body{
+  background-color: #464646;
 }

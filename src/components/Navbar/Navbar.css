@@ -1,14 +1,14 @@
 /* Navbar.css */
 
 .navbar {
-  
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.9rem;
   padding-left: 3rem;
-background-color:#4B5A6A;
- color: white; /* Set text color to white */
+  background-color:#4B5A6A;
+  color: white; /* Set text color to white */
 }
 
 .logo {
