@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/student-help/static/css/main.016d0818.css",
-    "main.js": "/student-help/static/js/main.b22d5382.js",
+    "main.js": "/student-help/static/js/main.a258215c.js",
     "static/js/787.45345c44.chunk.js": "/student-help/static/js/787.45345c44.chunk.js",
     "static/media/civil.jpg": "/student-help/static/media/civil.77cb702487e9312c0d65.jpg",
     "static/media/home_assert-1.png": "/student-help/static/media/home_assert-1.39f88f1c760de787b36f.png",
@@ -12,11 +12,11 @@
     "static/media/chemical.jpg": "/student-help/static/media/chemical.c5b404503ca2cc49ca6b.jpg",
     "index.html": "/student-help/index.html",
     "main.016d0818.css.map": "/student-help/static/css/main.016d0818.css.map",
-    "main.b22d5382.js.map": "/student-help/static/js/main.b22d5382.js.map",
+    "main.a258215c.js.map": "/student-help/static/js/main.a258215c.js.map",
     "787.45345c44.chunk.js.map": "/student-help/static/js/787.45345c44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.016d0818.css",
-    "static/js/main.b22d5382.js"
+    "static/js/main.a258215c.js"
   ]
 }
