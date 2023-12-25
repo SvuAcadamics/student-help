@@ -4,8 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1f2833;
     height: 80vh;
-    margin: 1rem;
+    
 }
 .syllabus {
   background-color: #4b5a6a71; /* Dark black background */
