@@ -3,6 +3,7 @@ import "./Home.css";
 import side from "../../Images/home_assert-1.png";
 import Branch from "../../components/Branch/Branch";
 import { useNavigate } from "react-router-dom";
+import Button from "../../components/Button/Button";
 function Home() {
   const navigate = useNavigate();
   return (
@@ -21,8 +22,8 @@ function Home() {
             <span className="coloredtext">Climb</span>, Make your stuff cleaner.
           </p>
           <div className="for-buttons">
-            <button className="for-but">Login</button>
-            <button className="for-but">Sign up</button>
+            <Button buttonText="Login" onClick ="login()"/>
+            <Button buttonText="Registration" onClick ="login()"/>
           </div>
         </div>
         <div className="for-image-div">
