@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksyllabus=self.webpackChunksyllabus||[]).push([[609,509],{72609:(s,t,l)=>{l.r(t),l.d(t,{default:()=>u});l(72791),l(65509);var e=l(80184);const u=s=>{let{buttonText:t,onClick:l}=s;return(0,e.jsx)("button",{className:"for-but",onClick:l,children:t})}},65509:(s,t,l)=>{l.r(t),l.d(t,{default:()=>e});const e={}}}]);
+//# sourceMappingURL=609.4d9dacff.chunk.js.map

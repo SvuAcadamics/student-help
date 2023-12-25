@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksyllabus=self.webpackChunksyllabus||[]).push([[547],{26547:(s,a,e)=>{s.exports=e.p+"static/media/mech.e176b6a390a81a883a70.jpg"}}]);

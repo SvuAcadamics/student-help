@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/311.31d9ef3f.chunk.css","mappings":"AAIA,2BACI,kBACF","sources":["components/DropDown/Dropdown.css"],"sourcesContent":["/* Syllabus.css */\r\n\r\n/* ... (previous styles) */\r\n\r\n.syllabus .dropdown .label {\r\n    margin-bottom: 15px; /* Adjust the spacing as needed */\r\n  }\r\n  "],"names":[],"sourceRoot":""}

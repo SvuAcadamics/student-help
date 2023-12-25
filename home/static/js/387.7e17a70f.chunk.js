@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksyllabus=self.webpackChunksyllabus||[]).push([[387],{19387:(s,a,b)=>{s.exports=b.p+"static/media/graduation hats-bro.168bba9717e3cb81bac7.png"}}]);

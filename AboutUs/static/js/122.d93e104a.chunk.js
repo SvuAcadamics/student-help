@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksyllabus=self.webpackChunksyllabus||[]).push([[122],{62122:(s,e,a)=>{s.exports=a.p+"static/media/Online learning-pana.eff887109483d91f42f0.png"}}]);

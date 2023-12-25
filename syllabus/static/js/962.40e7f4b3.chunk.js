@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksyllabus=self.webpackChunksyllabus||[]).push([[962],{94962:(c,s,a)=>{c.exports=a.p+"static/media/chemical.c5b404503ca2cc49ca6b.jpg"}}]);

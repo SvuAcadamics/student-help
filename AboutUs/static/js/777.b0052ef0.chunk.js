@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksyllabus=self.webpackChunksyllabus||[]).push([[777],{94777:(s,e,a)=>{s.exports=a.p+"static/media/Book lover-rafiki.e90ca624c3e12b3a39d2.png"}}]);
