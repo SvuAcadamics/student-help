@@ -1,13 +1,13 @@
 import React, { lazy, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-
 import Download from './components/Download/Download';
-
 import './App.css';
 import Footer from './components/Footer/Footer';
 import { Route as RouteNames, RoutePrefix } from './roots';
 import LazyLoadComp from './lazyLoadComp';
+import LoginContainer from './containers/LoginContainer';
+import RegistationContainer from './containers/RegistrationContainer';
 
 const App = () => {
 

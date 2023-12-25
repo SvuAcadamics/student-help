@@ -1,6 +1,6 @@
 import  { useState } from "react";
-import Register from '../../pages/Registration/Registration'
-import {supabase} from "../../config/apiConfig";
+import Register from '../pages/Registration/Registration';
+import {supabase} from "../config/apiConfig";
 
 const RegistationContainer = () => {
   const [name,setName] = useState(""); 
@@ -80,9 +80,7 @@ const RegistationContainer = () => {
       setPassword("");
       setStartYear("");
       setEndingYear("");
-      setName("");
-      setEndingYear("");
-      setStartYear("");
+      setName(""); 
       setPin("");
     }
   };

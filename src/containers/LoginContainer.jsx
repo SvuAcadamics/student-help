@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import Login from '../../pages/Login/Login'
-import { supabase } from "../../config/apiConfig";
-import { useNavigate } from "react-router-dom";
+import Login from '../pages/Login/Login'
+import { supabase } from "../config/apiConfig";
 
 const LoginContainer = () => {
-  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [formError, setFormError] = useState(null);
@@ -38,7 +36,6 @@ const LoginContainer = () => {
   
       if (data.length === 1) {
         console.log("Password matches");
-        navigate('/');
       } else {
         setFormError("Password Does not match...")
         console.log("Password does not match");

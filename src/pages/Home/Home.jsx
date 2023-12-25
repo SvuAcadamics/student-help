@@ -22,8 +22,8 @@ function Home() {
             <span className="coloredtext">Climb</span>, Make your stuff cleaner.
           </p>
           <div className="for-buttons">
-            <Button buttonText="Login" onClick ="login()"/>
-            <Button buttonText="Registration" onClick ="login()"/>
+            <Button buttonText="Login" />
+            <Button buttonText="Registration"/>
           </div>
         </div>
         <div className="for-image-div">
