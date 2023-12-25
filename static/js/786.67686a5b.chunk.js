@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksyllabus=self.webpackChunksyllabus||[]).push([[786,883],{68786:(s,u,a)=>{a.r(u),a.d(u,{default:()=>l});a(72791),a(42883);var e=a(80184);const l=function(){return(0,e.jsx)("div",{className:"abou",children:"AboutUs"})}},42883:(s,u,a)=>{a.r(u),a.d(u,{default:()=>e});const e={}}}]);
+//# sourceMappingURL=786.67686a5b.chunk.js.map

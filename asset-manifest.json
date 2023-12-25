@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/student-help/static/css/main.37332976.css",
-    "main.js": "/student-help/static/js/main.6934b26a.js",
+    "main.css": "/student-help/static/css/main.404a53fa.css",
+    "main.js": "/student-help/static/js/main.c7b0a20d.js",
     "static/js/449.e31b74fd.chunk.js": "/student-help/static/js/449.e31b74fd.chunk.js",
     "static/js/777.b0052ef0.chunk.js": "/student-help/static/js/777.b0052ef0.chunk.js",
     "static/js/94.1ca69071.chunk.js": "/student-help/static/js/94.1ca69071.chunk.js",
@@ -35,8 +35,9 @@
     "static/js/797.a9af00c2.chunk.js": "/student-help/static/js/797.a9af00c2.chunk.js",
     "static/css/791.78dfeb4e.chunk.css": "/student-help/static/css/791.78dfeb4e.chunk.css",
     "static/js/791.c037f26e.chunk.js": "/student-help/static/js/791.c037f26e.chunk.js",
-    "static/js/786.f197b296.chunk.js": "/student-help/static/js/786.f197b296.chunk.js",
-    "static/css/883.31d6cfe0.chunk.css": "/student-help/static/css/883.31d6cfe0.chunk.css",
+    "static/css/786.c480cea1.chunk.css": "/student-help/static/css/786.c480cea1.chunk.css",
+    "static/js/786.67686a5b.chunk.js": "/student-help/static/js/786.67686a5b.chunk.js",
+    "static/css/883.c480cea1.chunk.css": "/student-help/static/css/883.c480cea1.chunk.css",
     "static/js/883.201f44f9.chunk.js": "/student-help/static/js/883.201f44f9.chunk.js",
     "static/css/544.ad7277dc.chunk.css": "/student-help/static/css/544.ad7277dc.chunk.css",
     "static/js/544.9658b019.chunk.js": "/student-help/static/js/544.9658b019.chunk.js",
@@ -53,9 +54,9 @@
     "static/js/358.eaf3f9e7.chunk.js": "/student-help/static/js/358.eaf3f9e7.chunk.js",
     "static/css/739.074b38fe.chunk.css": "/student-help/static/css/739.074b38fe.chunk.css",
     "static/js/739.659bce80.chunk.js": "/student-help/static/js/739.659bce80.chunk.js",
-    "static/css/651.04078b55.chunk.css": "/student-help/static/css/651.04078b55.chunk.css",
+    "static/css/651.0935a126.chunk.css": "/student-help/static/css/651.0935a126.chunk.css",
     "static/js/651.4b0caaae.chunk.js": "/student-help/static/js/651.4b0caaae.chunk.js",
-    "static/css/560.4fae14fc.chunk.css": "/student-help/static/css/560.4fae14fc.chunk.css",
+    "static/css/560.1ea83976.chunk.css": "/student-help/static/css/560.1ea83976.chunk.css",
     "static/js/560.a6d77e8c.chunk.js": "/student-help/static/js/560.a6d77e8c.chunk.js",
     "static/js/511.404cb056.chunk.js": "/student-help/static/js/511.404cb056.chunk.js",
     "static/js/787.45345c44.chunk.js": "/student-help/static/js/787.45345c44.chunk.js",
@@ -76,8 +77,8 @@
     "static/media/chemical.jpg": "/student-help/static/media/chemical.c5b404503ca2cc49ca6b.jpg",
     "static/media/index.cjs": "/student-help/static/media/index.87283f34b94ab8669cb4.cjs",
     "index.html": "/student-help/index.html",
-    "main.37332976.css.map": "/student-help/static/css/main.37332976.css.map",
-    "main.6934b26a.js.map": "/student-help/static/js/main.6934b26a.js.map",
+    "main.404a53fa.css.map": "/student-help/static/css/main.404a53fa.css.map",
+    "main.c7b0a20d.js.map": "/student-help/static/js/main.c7b0a20d.js.map",
     "449.e31b74fd.chunk.js.map": "/student-help/static/js/449.e31b74fd.chunk.js.map",
     "569.4223f1fb.chunk.css.map": "/student-help/static/css/569.4223f1fb.chunk.css.map",
     "569.bf45fafc.chunk.js.map": "/student-help/static/js/569.bf45fafc.chunk.js.map",
@@ -97,7 +98,9 @@
     "797.a9af00c2.chunk.js.map": "/student-help/static/js/797.a9af00c2.chunk.js.map",
     "791.78dfeb4e.chunk.css.map": "/student-help/static/css/791.78dfeb4e.chunk.css.map",
     "791.c037f26e.chunk.js.map": "/student-help/static/js/791.c037f26e.chunk.js.map",
-    "786.f197b296.chunk.js.map": "/student-help/static/js/786.f197b296.chunk.js.map",
+    "786.c480cea1.chunk.css.map": "/student-help/static/css/786.c480cea1.chunk.css.map",
+    "786.67686a5b.chunk.js.map": "/student-help/static/js/786.67686a5b.chunk.js.map",
+    "883.c480cea1.chunk.css.map": "/student-help/static/css/883.c480cea1.chunk.css.map",
     "883.201f44f9.chunk.js.map": "/student-help/static/js/883.201f44f9.chunk.js.map",
     "544.ad7277dc.chunk.css.map": "/student-help/static/css/544.ad7277dc.chunk.css.map",
     "544.9658b019.chunk.js.map": "/student-help/static/js/544.9658b019.chunk.js.map",
@@ -113,9 +116,9 @@
     "486.7f8633c1.chunk.js.map": "/student-help/static/js/486.7f8633c1.chunk.js.map",
     "739.074b38fe.chunk.css.map": "/student-help/static/css/739.074b38fe.chunk.css.map",
     "739.659bce80.chunk.js.map": "/student-help/static/js/739.659bce80.chunk.js.map",
-    "651.04078b55.chunk.css.map": "/student-help/static/css/651.04078b55.chunk.css.map",
+    "651.0935a126.chunk.css.map": "/student-help/static/css/651.0935a126.chunk.css.map",
     "651.4b0caaae.chunk.js.map": "/student-help/static/js/651.4b0caaae.chunk.js.map",
-    "560.4fae14fc.chunk.css.map": "/student-help/static/css/560.4fae14fc.chunk.css.map",
+    "560.1ea83976.chunk.css.map": "/student-help/static/css/560.1ea83976.chunk.css.map",
     "560.a6d77e8c.chunk.js.map": "/student-help/static/js/560.a6d77e8c.chunk.js.map",
     "787.45345c44.chunk.js.map": "/student-help/static/js/787.45345c44.chunk.js.map",
     "982.b0417583.chunk.js.map": "/student-help/static/js/982.b0417583.chunk.js.map",
@@ -123,7 +126,7 @@
     "607.e94719c1.chunk.js.map": "/student-help/static/js/607.e94719c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37332976.css",
-    "static/js/main.6934b26a.js"
+    "static/css/main.404a53fa.css",
+    "static/js/main.c7b0a20d.js"
   ]
 }

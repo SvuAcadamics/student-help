@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/786.f197b296.chunk.js","mappings":"0JAQA,QANA,WACE,OACEA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,WAET,C","sources":["pages/AboutUs/AboutUs.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nfunction AboutUs() {\r\n  return (\r\n    <div>AboutUs</div>\r\n  )\r\n}\r\n\r\nexport default AboutUs"],"names":["_jsx","children"],"sourceRoot":""}
