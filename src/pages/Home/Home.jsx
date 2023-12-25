@@ -21,7 +21,7 @@ function Home() {
             <span className="coloredtext">Climb</span>, Make your stuff cleaner.
           </p>
           <div className="for-buttons">
-            <button className="for-but" onClick={()=>{console.log('nav');navigate('/student-help/syllabus')}}>Login</button>
+            <button className="for-but">Login</button>
             <button className="for-but">Sign up</button>
           </div>
         </div>
