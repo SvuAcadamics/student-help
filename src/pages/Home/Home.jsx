@@ -2,8 +2,9 @@ import React from "react";
 import "./Home.css";
 import side from "../../Images/home_assert-1.png";
 import Branch from "../../components/Branch/Branch";
-
+import { useNavigate } from "react-router-dom";
 function Home() {
+  const navigate = useNavigate();
   return (
     <div className="home">
       <div className="for-home-screen">

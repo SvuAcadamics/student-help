@@ -2,7 +2,8 @@
 
 import React, { useState } from 'react';
 import './Navbar.css';  // Create a separate CSS file for styling
-import { Link } from "react-router-dom";
+import { Link,  } from "react-router-dom";
+import { RoutePrefix,Route } from '../../roots';
 
 
 const Navbar = () => {
@@ -21,10 +22,10 @@ const Navbar = () => {
       <div className="logo">SVUA</div>
 
       <div className={`menu ${isMobile ? 'active' : ''}`}>
-        <Link className="link-for-data" to="/home" onClick={handleLinkClick}>Home</Link>
-        <Link className="link-for-data" to="/syllabus" onClick={handleLinkClick}>Syllabus</Link>
-        <Link className="link-for-data" to="/questionpaper" onClick={handleLinkClick}>Question Paper</Link>
-        <Link className="link-for-data" to="/aboutUs" onClick={handleLinkClick}>About us</Link>
+        <Link className="link-for-data" to={`${RoutePrefix}/${Route.Home}`} onClick={handleLinkClick}>Home</Link>
+        <Link className="link-for-data" to={`${RoutePrefix}/${Route.Syllabus}`} onClick={handleLinkClick}>Syllabus</Link>
+        <Link className="link-for-data" to={`${RoutePrefix}/${Route.QuestionPaper}`}  onClick={handleLinkClick}>Question Paper</Link>
+        <Link className="link-for-data" to={`${RoutePrefix}/${Route.Aboutus}`} onClick={handleLinkClick}>About us</Link>
       </div>
 
       <div className="toggle-button" onClick={handleToggle}>

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://svuacadamics.github.io/student-help",
   "name": "syllabus",
   "version": "0.1.0",
   "private": true,
@@ -13,9 +14,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild":"node ./postBuild.js"
+    
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "react-scripts": "^5.0.1"
   }
 }
