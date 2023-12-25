@@ -2,8 +2,9 @@ import React from "react";
 import "./Home.css";
 import side from "../../Images/home_assert-1.png";
 import Branch from "../../components/Branch/Branch";
-
+import { useNavigate } from "react-router-dom";
 function Home() {
+  const navigate = useNavigate();
   return (
     <div className="home">
       <div className="for-home-screen">
@@ -20,7 +21,7 @@ function Home() {
             <span className="coloredtext">Climb</span>, Make your stuff cleaner.
           </p>
           <div className="for-buttons">
-            <button className="for-but">Login</button>
+            <button className="for-but" onClick={()=>{console.log('nav');navigate('/student-help/syllabus')}}>Login</button>
             <button className="for-but">Sign up</button>
           </div>
         </div>

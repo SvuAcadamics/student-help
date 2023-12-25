@@ -10,6 +10,7 @@ import Download from './components/Download/Download';
 
 import './App.css';
 import Footer from './components/Footer/Footer';
+import { Route as RouteNames, RoutePrefix } from './roots';
 
 
 
@@ -20,10 +21,11 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/syllabus" element={<Syllabus />} />
-        <Route path="/questionpaper" element={<Questionpaper />} />
-        <Route path='/AboutUs' element={<AboutUs/>} />
+        <Route path={RoutePrefix} element={<Home/>} />
+        <Route path={`${RoutePrefix}/${RouteNames.Home}`} element={<Home />} />
+        <Route path={`${RoutePrefix}/${RouteNames.Syllabus}`} element={<Syllabus />} />
+        <Route path={`${RoutePrefix}/${RouteNames.QuestionPaper}`} element={<Questionpaper />} />
+        <Route path={`${RoutePrefix}/${RouteNames.Aboutus}`} element={<AboutUs/>} />
       </Routes>
       <Footer/>
     </Router>
