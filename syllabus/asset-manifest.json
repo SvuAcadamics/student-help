@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/student-help/static/css/main.404a53fa.css",
+    "main.css": "/student-help/static/css/main.add17190.css",
     "main.js": "/student-help/static/js/main.c7b0a20d.js",
     "static/js/449.e31b74fd.chunk.js": "/student-help/static/js/449.e31b74fd.chunk.js",
     "static/js/777.b0052ef0.chunk.js": "/student-help/static/js/777.b0052ef0.chunk.js",
@@ -77,7 +77,7 @@
     "static/media/chemical.jpg": "/student-help/static/media/chemical.c5b404503ca2cc49ca6b.jpg",
     "static/media/index.cjs": "/student-help/static/media/index.87283f34b94ab8669cb4.cjs",
     "index.html": "/student-help/index.html",
-    "main.404a53fa.css.map": "/student-help/static/css/main.404a53fa.css.map",
+    "main.add17190.css.map": "/student-help/static/css/main.add17190.css.map",
     "main.c7b0a20d.js.map": "/student-help/static/js/main.c7b0a20d.js.map",
     "449.e31b74fd.chunk.js.map": "/student-help/static/js/449.e31b74fd.chunk.js.map",
     "569.4223f1fb.chunk.css.map": "/student-help/static/css/569.4223f1fb.chunk.css.map",
@@ -126,7 +126,7 @@
     "607.e94719c1.chunk.js.map": "/student-help/static/js/607.e94719c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.404a53fa.css",
+    "static/css/main.add17190.css",
     "static/js/main.c7b0a20d.js"
   ]
 }
