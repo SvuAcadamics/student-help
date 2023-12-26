@@ -1,41 +1,26 @@
-import  { useState } from "react";
+import React, { useState } from "react";
 import Register from '../pages/Registration/Registration';
-import {supabase} from "../config/apiConfig";
+import { supabase } from "../config/apiConfig";
 
-const RegistationContainer = () => {
-  const [name,setName] = useState(""); 
+const RegistrationContainer = () => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [pin, setPin] = useState("");
   const [password, setPassword] = useState("");
-  const [starting_year,setStartYear] = useState("");
-  const [ending_year,setEndingYear] = useState("");
-  const [formError,setFormError] = useState("");
-  
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+  const [endingYear, setEndingYear] = useState("");
+  const [formError, setFormError] = useState("");
 
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
+  const handleEmailChange = (e) => setEmail(e.target.value);
+  const handlePasswordChange = (e) => setPassword(e.target.value);
+  const handlePinChange = (e) => setPin(e.target.value);
+  const handleNameChange = (e) => setName(e.target.value);
+  const handleEndChange = (e) => setEndingYear(e.target.value);
 
-  const handlePinChange = (e) => {
-    setPin(e.target.value);
-  };
-
-
-  const handleNameChange = (e) =>{
-    setName(e.target.value)
-  }
-
-  const handleendChange = (e) =>{
-    setEndingYear(e.target.value)
-  }
-
- const handleSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!name || !pin || !email || !ending_year || !password) {
-      setFormError("Please fill in the fields correctly");
+
+    if (!name || !pin || !email || !endingYear || !password) {
+      setFormError("Please fill in all fields.");
       return;
     }
 
@@ -47,13 +32,12 @@ const RegistationContainer = () => {
       .eq('pin', pin);
 
     if (fetchError) {
-      console.log(fetchError);
+      console.error(fetchError);
       // Handle the error, maybe show a message to the user
       return;
     }
 
     if (existingUsers && existingUsers.length > 0) {
-      console.log("Already exists");
       setFormError("Email or PIN already exists. Please use a different one.");
       return;
     }
@@ -61,12 +45,11 @@ const RegistationContainer = () => {
     const { data, error } = await supabase
       .from('register')
       .insert([
-        { name: name, pin: pin, email: email, end: ending_year, password: password }
-      ])
-      .select();
+        { name, pin, email, end: endingYear, password }
+      ]);
 
     if (error) {
-      console.log(error);
+      console.error(error);
       // Handle the error, maybe show a message to the user
     } else if (data) {
       console.log(data);
@@ -75,28 +58,29 @@ const RegistationContainer = () => {
       setEmail("");
       setPassword("");
       setEndingYear("");
-      setName(""); 
+      setName("");
       setPin("");
     }
   };
+
   return (
-    <div className="LoginContainer-main">
+    <div className="RegistrationContainer-main">
       <Register
         name={name}
         email={email}
-        ending_year = {ending_year}
+        endingYear={endingYear}
         password={password}
         pin={pin}
         onPinChange={handlePinChange}
         onNameChange={handleNameChange}
-        onEndingYearChange={handleendChange}
+        onEndingYearChange={handleEndChange}
         onEmailChange={handleEmailChange}
         onPasswordChange={handlePasswordChange}
         onSubmit={handleSubmit}
-        onFormError={formError}
+        formError={formError}
       />
     </div>
   );
 };
 
-export default RegistationContainer;
+export default RegistrationContainer;
