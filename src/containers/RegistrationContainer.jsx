@@ -28,17 +28,13 @@ const RegistationContainer = () => {
     setName(e.target.value)
   }
 
-  const handlestartChange = (e) =>{
-    setStartYear(e.target.value)
-  }
-
   const handleendChange = (e) =>{
     setEndingYear(e.target.value)
   }
 
  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!name || !pin || !email || !starting_year || !ending_year || !password) {
+    if (!name || !pin || !email || !ending_year || !password) {
       setFormError("Please fill in the fields correctly");
       return;
     }
@@ -65,7 +61,7 @@ const RegistationContainer = () => {
     const { data, error } = await supabase
       .from('register')
       .insert([
-        { name: name, pin: pin, email: email, start: starting_year, end: ending_year, password: password }
+        { name: name, pin: pin, email: email, end: ending_year, password: password }
       ])
       .select();
 
@@ -78,7 +74,6 @@ const RegistationContainer = () => {
       // Clear input fields after successful submission
       setEmail("");
       setPassword("");
-      setStartYear("");
       setEndingYear("");
       setName(""); 
       setPin("");
@@ -89,13 +84,11 @@ const RegistationContainer = () => {
       <Register
         name={name}
         email={email}
-        starting_year={starting_year}
         ending_year = {ending_year}
         password={password}
         pin={pin}
         onPinChange={handlePinChange}
         onNameChange={handleNameChange}
-        onStartingYearChange={handlestartChange}
         onEndingYearChange={handleendChange}
         onEmailChange={handleEmailChange}
         onPasswordChange={handlePasswordChange}

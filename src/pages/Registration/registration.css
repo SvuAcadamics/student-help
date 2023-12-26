@@ -2,12 +2,13 @@
   .register_form_container{    
       position: relative;
       width: 400px;
-      height: 650px;
+      height: 540px;
       max-width: 400px;
       max-height: 800px;
-      background: #151516;
+      background: #1f2833;  
       border-radius: 50px 5px;
       display: flex;
+      margin: 2rem;
       align-items: center;
       justify-content: center;
       overflow: hidden;
@@ -26,7 +27,7 @@
       width: 170%;
       height: 300%;
       content: '';
-      background-image: conic-gradient(transparent, transparent, transparent, #b10a0a);
+      background-image: conic-gradient(transparent, transparent, transparent, #45a29e);
       animation: rotate_border 6s linear infinite;
       animation-delay: -3s;
   }
@@ -41,7 +42,7 @@
   .register_form{
       position: absolute;
       content: '';
-      background-color: black;
+      background-color: #1f2833;
       border-radius: 50px 5px;
       inset: 5px;
       padding: 0px 40px;

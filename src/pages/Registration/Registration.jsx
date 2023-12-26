@@ -1,7 +1,7 @@
 import React from 'react';
 import './registration.css';
 
-const Register = ({ name,email,starting_year, pin,ending_year,password, onNameChange,onEmailChange,onPinChange, onStartingYearChange, onPasswordChange,onEndingYearChange, onSubmit, onFormError}) => {
+const Register = ({ name,email, pin,ending_year,password, onNameChange,onEmailChange,onPinChange, onStartingYearChange, onPasswordChange,onEndingYearChange, onSubmit, onFormError}) => {
   return (
     <div className="register_form_container">
       <form  onSubmit={onSubmit} className="register_form">
@@ -42,18 +42,7 @@ const Register = ({ name,email,starting_year, pin,ending_year,password, onNameCh
             onChange={onEmailChange}
           />
         </div>
-        <div className="input_group">
-          <i className="fa fa-calendar"></i>
-          <input
-            type="number"
-            placeholder="Starting year"
-            className="input_text"
-            autoComplete="off"
-            required={true}
-            value={starting_year}
-            onChange={onStartingYearChange}
-          />
-        </div>
+        
         <div className="input_group">
           <i className="fa fa-calendar"></i>
           <input

@@ -4,8 +4,16 @@ import side from "../../Images/home_assert-1.png";
 import Branch from "../../components/Branch/Branch";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button/Button";
+import { Link } from "react-router-dom";
+
 function Home() {
   const navigate = useNavigate();
+  const login = () =>{
+    navigate('/login');
+  }
+  const registration = () =>{
+    navigate('/registration');
+  }
   return (
     <div className="home">
       <div className="for-home-screen">
@@ -22,8 +30,8 @@ function Home() {
             <span className="coloredtext">Climb</span>, Make your stuff cleaner.
           </p>
           <div className="for-buttons">
-            <Button buttonText="Login" />
-            <Button buttonText="Registration"/>
+            <Button buttonText="Login" onClick={login}/>
+            <Button buttonText="Registration" onClick={registration}/>         
           </div>
         </div>
         <div className="for-image-div">

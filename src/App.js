@@ -6,8 +6,6 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import { Route as RouteNames, RoutePrefix } from './roots';
 import LazyLoadComp from './lazyLoadComp';
-import LoginContainer from './containers/LoginContainer';
-import RegistationContainer from './containers/RegistrationContainer';
 
 const App = () => {
 
@@ -17,6 +15,8 @@ const App = () => {
       <main>
       <Routes>
         <Route path='/' element={<LazyLoadComp filePath='./pages/Home/Home'/>} />
+        <Route path='/login' element={<LazyLoadComp filePath='./containers/LoginContainer'/>} />  
+        <Route path='/registration' element={<LazyLoadComp filePath='./containers/RegistrationContainer' />} />      
         <Route path={RoutePrefix} element={<LazyLoadComp filePath='./pages/Home/Home'/>} />
         <Route path={`${RoutePrefix}/${RouteNames.Home}`} element={<LazyLoadComp filePath='./pages/Home/Home'/>}/>
         <Route path={`${RoutePrefix}/${RouteNames.Syllabus}`} element={<LazyLoadComp filePath='./pages/Syllabus/Syllabus'/>} />
