@@ -11,7 +11,7 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      margin-top: 2rem;
+      margin-top: 12rem;
   }
   .login_form_container::before{
       
@@ -43,7 +43,7 @@
   .login_form{
       position: absolute;
       content: '';
-      background-color: #1f2833;
+      background-color: #1f2833;;
       border-radius: 50px 5px;
       inset: 5px;
       padding: 50px 40px;

@@ -15,13 +15,13 @@ const App = () => {
       <main>
       <Routes>
         <Route path='/' element={<LazyLoadComp filePath='./pages/Home/Home'/>} />
-        <Route path='/login' element={<LazyLoadComp filePath='./containers/LoginContainer'/>} />  
-        <Route path='/registration' element={<LazyLoadComp filePath='./containers/RegistrationContainer' />} />      
         <Route path={RoutePrefix} element={<LazyLoadComp filePath='./pages/Home/Home'/>} />
         <Route path={`${RoutePrefix}/${RouteNames.Home}`} element={<LazyLoadComp filePath='./pages/Home/Home'/>}/>
         <Route path={`${RoutePrefix}/${RouteNames.Syllabus}`} element={<LazyLoadComp filePath='./pages/Syllabus/Syllabus'/>} />
         <Route path={`${RoutePrefix}/${RouteNames.QuestionPaper}`} element={<LazyLoadComp filePath='./pages/Questionpapers/Questionpaper'/>} />
         <Route path={`${RoutePrefix}/${RouteNames.Aboutus}`} element={<LazyLoadComp filePath='./pages/AboutUs/AboutUs'/>} />
+        <Route path='/login' element={<LazyLoadComp filePath='./containers/LoginContainer'/>} />  
+        <Route path='/registration' element={<LazyLoadComp filePath='./containers/RegistrationContainer' />} />             
       </Routes>
       </main>
       <Footer/>
