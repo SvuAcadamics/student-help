@@ -6,6 +6,8 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import { Route as RouteNames, RoutePrefix } from './roots';
 import LazyLoadComp from './lazyLoadComp';
+import ChatbotComponent from './components/Chatbot/ChatbotComponent';
+
 
 const App = () => {
 
