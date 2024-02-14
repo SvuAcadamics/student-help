@@ -1,4 +1,5 @@
 import React from 'react'
+import './Download.css'
 
 const Download = () => {
 
@@ -12,7 +13,9 @@ const Download = () => {
 
   return (
     <div>
-        <button onClick={handleDownloadClick}>Download PDF</button>
+        <button className='for-download-button'>
+          <a href="https://drive.google.com/drive/u/3/folders/1DyV2CQoGVdjLohW9Or8_75bw6toFWUbT?hl=en_GB" class="btn" download>Download CV</a>
+        </button>
     </div>
   )
 }

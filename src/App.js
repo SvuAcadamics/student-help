@@ -1,12 +1,12 @@
-import React, { lazy, useState } from 'react';
+// import React, { lazy, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Download from './components/Download/Download';
+// import Download from './components/Download/Download';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import { Route as RouteNames, RoutePrefix } from './roots';
 import LazyLoadComp from './lazyLoadComp';
-import ChatbotComponent from './components/Chatbot/ChatbotComponent';
+// import ChatbotComponent from './components/Chatbot/ChatbotComponent';
 
 
 const App = () => {
