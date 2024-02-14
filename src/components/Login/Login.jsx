@@ -1,47 +1,66 @@
-import React from 'react';
-import './login.css'
+import { auth, googleProvider } from "../../config/firebase";
+import {
+  createUserWithEmailAndPassword,
+  signInWithPopup,
+  signOut,
+} from "firebase/auth";
+import { useState } from "react";
+import "./login.css";
 
+export const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-const Login = ({ email, password,formError, onEmailChange, onPasswordChange, onSubmit}) => {
+  const signIn = async () => {
+    try {
+      await createUserWithEmailAndPassword(auth, email, password);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const signInWithGoogle = async () => {
+    try {
+      await signInWithPopup(auth, googleProvider);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const logout = async () => {
+    try {
+      await signOut(auth);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   return (
-    <div className='main-container'>
-    <div className="login_form_container">
-      <form  onSubmit={onSubmit} className="login_form">
-        <h2>Login</h2>
-        <div className="input_group">
-          <i className="fa fa-user"></i>
-          <input
-            type="email"
-            placeholder="Email"
-            className="input_text"
-            autoComplete="off"
-            required={true}
-            value={email}
-            onChange={onEmailChange}
-          />
-        </div>
-        <div className="input_group">
-          <i className="fa fa-unlock-alt"></i>
-          <input
-            value={password}
-            required = {true}
-            type="password"
-            placeholder="Password"
-            className="input_text"
-            autoComplete="off"
-            onChange={onPasswordChange}
-          />
-        </div>
-        <div className="button_group" id="login_button">
-          <button type='submit'>Submit</button>
-        </div>
-        <div className='for-error-messege'>
-          {formError && <p>{formError}</p>}
-        </div>
-      </form>      
-    </div>
-  </div>
-  );
-}
+    <div className="for-form-page">
+      <div className="form-container">
+        <input
+          placeholder="Email..."
+          onChange={(e) => setEmail(e.target.value)}
+          className="input"
+        />
+        <input
+          placeholder="Password..."
+          type="password"
+          onChange={(e) => setPassword(e.target.value)}
+          className="input"
+        />
+        <button onClick={signIn} className="button">
+          Sign In
+        </button>
 
-export default Login;
+        <button onClick={signInWithGoogle} className="googleButton">
+          Sign In With Google
+        </button>
+
+        <button onClick={logout} className="button">
+          Logout
+        </button>
+      </div>
+    </div>
+  );
+};
