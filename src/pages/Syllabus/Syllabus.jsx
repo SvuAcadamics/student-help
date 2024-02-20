@@ -1,7 +1,7 @@
 // Syllabus.jsx
 import React, { useState } from 'react';
 import './Syllabus.css';
-import { syllabus } from '../../constants/Global';
+import { syllabus } from '../../constants/Syllabus';
 import Dropdown from '../../components/DropDown/Dropdown';
 import Button from '../../components/Button/Button';
 
