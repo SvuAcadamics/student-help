@@ -1,6 +1,7 @@
 // question.jsx
 import React, { useState } from "react";
 import "./QuestionPaper.css";
+import { QuestionPaper } from "../../constants/Question";
 import Dropdown from "../../components/DropDown/Dropdown";
 import Button from "../../components/Button/Button";
 
@@ -29,8 +30,21 @@ const Questionpaper = () => {
   ];
 
   const handleSubmit = () => {
-    console.log("Selected Branch:", selectedBranch);
-    console.log("Selected Semester:", selectedSemester);
+    if (
+      QuestionPaper[selectedSemester] &&
+      QuestionPaper[selectedSemester][selectedBranch]
+    ) {
+      const selectedQuestionPaper = QuestionPaper[selectedSemester][selectedBranch];
+      console.log(
+        `QuestionPaper for ${selectedSemester} - ${selectedBranch}:`,
+        selectedQuestionPaper
+      );
+
+
+      window.location.href = selectedQuestionPaper;
+    } else {
+      console.log("Invalid semester or branch");
+    }
   };
 
   const handleSemesterChange = (semester) => {
