@@ -55,4 +55,12 @@ export const syllabus = {
         "CHE": "",
         "CIV": ""
       },
+      "semester8": {
+        "CSE": "",
+        "ECE": "",
+        "EEE": "",
+        "MEC": "",
+        "CHE": "",
+        "CIV": ""
+      },
 }

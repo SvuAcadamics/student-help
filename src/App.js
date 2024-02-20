@@ -6,7 +6,6 @@ import Footer from './components/Footer/Footer';
 import { Route as RouteNames, RoutePrefix } from './roots';
 import LazyLoadComp from './lazyLoadComp';
 
-
 const App = () => {
 
   return (

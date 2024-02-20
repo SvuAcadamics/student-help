@@ -26,6 +26,7 @@ const Syllabus = () => {
     { value: 'semester5', label: 'Semester 5' }, 
     { value: 'semester6', label: 'Semester 6' },
     { value: 'semester7', label: 'Semester 7' }, 
+    { value: 'semester8', label: 'Semester 8' }, 
   ];
 
   const handleSubmit = () => {
