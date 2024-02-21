@@ -5,10 +5,7 @@
     align-items: center;
 }
 
-.home{
-    background-color: #1f2833;
-    font-family: 'inria serif';
-}
+
 
 .explore{  
     margin-left: 5rem;  
@@ -36,7 +33,7 @@
 }
 
 .coloredtext{
-    color: #66fcf1;
+    color: #fc0;
 }
 
 
