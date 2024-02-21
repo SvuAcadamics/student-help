@@ -1,0 +1,7 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2833;
+    min-height: calc(100vh - var(--navbar-height) - 2rem);
+}
