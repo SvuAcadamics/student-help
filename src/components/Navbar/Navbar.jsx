@@ -6,6 +6,7 @@ import { Link  } from "react-router-dom";
 import { RoutePrefix,Route } from '../../roots';
 
 
+<<<<<<< HEAD
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -36,3 +37,12 @@ const Navbar = () => {
 };
 
 export default Navbar;
+=======
+const NavBar = () => {
+  return (
+    <div>NavBar</div>
+  )
+}
+
+export default NavBar
+>>>>>>> 239c8a1a6b00f2c0329c9743f700b949fc1ff6ae
