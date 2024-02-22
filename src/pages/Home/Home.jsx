@@ -4,7 +4,6 @@ import side from "../../Images/SideforHome.png";
 import Branch from "../../components/Branch/Branch";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button/Button";
-import { Link } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
