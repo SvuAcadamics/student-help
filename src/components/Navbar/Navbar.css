@@ -54,10 +54,12 @@
       top: 3.8rem;
       left: 0;
       width: 100%;
-      background-color:#45a29e;
+      background-color:#fc0;
       text-align: center;
     }
-  
+    .menu a{
+      color: black;
+    }
     .menu.active {
       display: flex;
     }

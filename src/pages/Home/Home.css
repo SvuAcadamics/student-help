@@ -1,7 +1,4 @@
 .for-home-screen{
-    display: flex;
-    justify-content: space-evenly;
-    height: 89vh;
     align-items: center;
 }
 
@@ -11,9 +8,19 @@
     margin-left: 5rem;  
     color: white;
     width: 50%;
+    top: 0;
     /* font-family: 'inria serif'; */
 }
 
+.videoTag{
+    position: relative;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
 .for-start-para{
     font-size: 2rem;
     margin: 0.5rem;
@@ -38,15 +45,9 @@
 
 
 
-.for-image-div{
-    display: flex;
-    justify-content: center;
-    width: 50%;
-}
 
-.for-home-img{
-    width: 23rem;
-}
+
+
 
 
 
