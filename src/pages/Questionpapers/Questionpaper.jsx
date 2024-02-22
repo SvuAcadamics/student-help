@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./QuestionPaper.css";
 import { QuestionPaper } from "../../constants/Question";
-import Dropdown from "../../components/DropDown/Dropdown";
+import Dropdown from "../../components/Dropdown/Dropdown";
 import Button from "../../components/Button/Button";
 
 const Questionpaper = () => {

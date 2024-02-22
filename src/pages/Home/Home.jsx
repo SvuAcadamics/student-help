@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
-import side from "../../Images/SideforHome.png";
 import Branch from "../../components/Branch/Branch";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button/Button";
+import Video from '../../Images/college.mp4'
 
 function Home() {
   const navigate = useNavigate();

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Syllabus.css';
 import { syllabus } from '../../constants/Syllabus';
-import Dropdown from '../../components/DropDown/Dropdown';
+import Dropdown from '../../components/Dropdown/Dropdown';
 import Button from '../../components/Button/Button';
 
 const Syllabus = () => {
