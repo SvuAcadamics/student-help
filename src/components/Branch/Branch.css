@@ -4,6 +4,7 @@ div.col-6 ,
     flex-direction: column;
 
 }
+
 .cards {
     display: flex;
     flex-wrap: wrap; /* Allow cards to wrap to the next line */
@@ -58,12 +59,13 @@ div.col-6 ,
     filter: grayscale(100%); /* Reverts the image to original colors when not hovered */
 }
 
-.for-branch{
-    color: white;
+.for-branch {
+    color: #fc0;
+    text-decoration: underline;
     font-size: 2rem;
-    /* margin: 1.5rem; */
-    /* font-family: 'inria serif' */
+    padding-left: 5rem;
 }
+
 
 .for-cse{
     color: white;

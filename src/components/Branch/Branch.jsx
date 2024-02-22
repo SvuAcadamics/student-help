@@ -6,7 +6,7 @@ import { coursesData } from "./Data";
 const Branch = () => {
   return (
     <div>
-      <p className="for-branch">Courses</p>
+      <h2 className="for-branch">Courses</h2>
       <div className="cards-wrapper">
       <div className="cards ">
           {coursesData.map((course, index) => (
