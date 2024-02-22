@@ -25,47 +25,38 @@ div.col-6 ,
     
 }
 
-/* .card-container {
-    display: inline-block;
-    flex-shrink: 0; 
-    height: 22rem;
-    width: 14rem;
-   
-    margin:1rem;
-    border-radius: 10px;
-    scroll-snap-align: start; 
-    transition: transform 0.3s ease;
-     
-} */
-.card-image{
-    
-    height:100% ;
-    width: 100%;
-    border-radius: 10px;
-   
-   
-}
-
-.image-container{
-    /* margin :1rem;
-    margin-bottom: 0; */
-    
-}
-
 .card-container {
-    /* Adjust the width to fit three cards in one row */
     display: flex;
     flex-direction: row;
-    /* margin: 1rem; */
     padding: 0;
-    height: 100%;
-   
+    height: 14rem; /* Set a fixed height */
+    width: 20rem; /* Set a fixed width */
     border-radius: 10px;
-    box-sizing: border-box; 
-    min-height: 12.5rem;
-    box-shadow: 0 0 5px rgba(102, 252, 241, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #fc0;
+    overflow: hidden; /* Ensure images don't overflow */
 }
 
+.image-container {
+    height: 100%; /* Ensure the image container takes up the entire height of the card container */
+    width: 100%; /* Ensure the image container takes up the entire width of the card container */
+}
+
+.card-image {
+    height: 100%; /* Ensure the image fills the image container */
+    width: 100%; /* Ensure the image fills the image container */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 10px; /* Apply border radius to match the card container */
+    transition: filter 0.3s ease; /* Smooth transition for the filter effect */
+}
+
+.card-image:hover {
+    filter: grayscale(0%); /* Applies grayscale filter when hovered over */
+}
+
+.card-image:not(:hover) {
+    filter: grayscale(100%); /* Reverts the image to original colors when not hovered */
+}
 
 .for-branch{
     color: white;

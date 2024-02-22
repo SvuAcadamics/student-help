@@ -2,17 +2,14 @@
 
 .for-overallproject-que{
     display: flex;
-    
+    padding-top: 15.7vh;
     justify-content: center;
     align-items: center;
-    height: 88vh;
     margin: 2rem;
 }
 .question {
-  background-color: #4b5a6a71; /* Dark black background */
   color: #ffffff; /* White text */
   padding: 20px;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;

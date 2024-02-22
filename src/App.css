@@ -3,5 +3,6 @@ main{
     justify-content: center;
     align-items: center;
     background-color:#000000;
+    font-family: 'Inria serif';
     min-height: calc(100vh - var(--navbar-height) - 2rem);
 }

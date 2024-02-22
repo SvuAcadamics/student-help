@@ -48,24 +48,11 @@
     width: 23rem;
 }
 
-.for-buttons{
-margin-left: -0.5rem;
-
-}
 
 
 
-.for-but{
-    color: white;
-    font-family: 'inria serif';
-    font-size: 1.2rem;
-    border: none;
-    margin: 1rem;
-    padding: 0.8rem;
-    width: 7rem;
-    border-radius: 10px;
 
-}
+
 
 @media only screen and (max-width: 850px) {
     .for-home-screen{
