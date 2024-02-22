@@ -5,20 +5,20 @@
 
 
 .explore{  
-    margin-left: 5rem;  
+    margin-top: 15rem;
+    margin-left: 12rem;  
     color: white;
-    width: 50%;
+    
+    position: absolute;
     top: 0;
-    /* font-family: 'inria serif'; */
+ 
 }
 
-.videoTag{
-    position: relative;
-}
+
 
 video{
     width: 100%;
-    height: 100%;
+    height: 75%;
     opacity: 0.3;
 }
 .for-start-para{

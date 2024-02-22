@@ -19,9 +19,7 @@ function Home() {
     <div className="home">
       <div className="for-home-screen">
         <div className="videoTag">
-      <video  autoPlay loop muted>
-          <source src={Video} type="video/mp4" />
-        </video>
+      <video src={Video} type="video/mp4" autoPlay loop muted/>
         </div>
         <div className="explore">
         
