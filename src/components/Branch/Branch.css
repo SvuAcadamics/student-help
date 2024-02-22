@@ -22,9 +22,6 @@ div.col-6 ,
     margin: auto;
 }
 
-.card-wrapper{
-    
-}
 
 .card-container {
     display: flex;
@@ -61,7 +58,6 @@ div.col-6 ,
 
 .for-branch {
     color: #fc0;
-    text-decoration: underline;
     font-size: 2rem;
     padding-left: 5rem;
 }
