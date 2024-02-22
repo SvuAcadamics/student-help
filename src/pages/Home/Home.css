@@ -1,4 +1,7 @@
 .for-home-screen{
+    display: flex;
+    justify-content: space-evenly;
+    height: 89vh;
     align-items: center;
 }
 
@@ -24,6 +27,7 @@ video{
 .for-start-para{
     font-size: 2rem;
     margin: 0.5rem;
+    color: #fc0;
     /* background-color: green; */
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import side from "../../Images/home_assert-1.png";
+import side from "../../Images/SideforHome.png";
 import Branch from "../../components/Branch/Branch";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button/Button";
