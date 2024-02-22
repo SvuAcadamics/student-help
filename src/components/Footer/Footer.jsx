@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
       <div className='footer'>
-        <p className='for-p'>College Website:  <a className='for-a' href="https://svuce.edu.in">https://svuce.edu.in</a></p>
+        <p className='for-p'>Copyrights@ SVU Academics</p>
       </div>
   )
 }

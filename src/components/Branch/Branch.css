@@ -1,3 +1,12 @@
+
+.text-container{
+    width: 20rem;
+    margin-top: 0.5rem;
+    color: white;
+    text-align: center;
+
+}
+
 div.col-6 ,
 .image-container .col-6{
     display: flex;
@@ -49,12 +58,10 @@ div.col-6 ,
 }
 
 .card-image:hover {
-    filter: grayscale(0%); /* Applies grayscale filter when hovered over */
+    filter: grayscale(100%); /* Applies grayscale filter when hovered over */
 }
 
-.card-image:not(:hover) {
-    filter: grayscale(100%); /* Reverts the image to original colors when not hovered */
-}
+
 
 .for-branch {
     color: #fc0;

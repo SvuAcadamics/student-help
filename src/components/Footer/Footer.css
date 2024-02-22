@@ -3,16 +3,13 @@
     font-family: 'Inria Serif';
     font-size: 1.3rem;
     bottom: 0;  
+    height: 3rem;
 }
 
 .for-p{
     color: white;
-    margin-left: 1rem;
-    margin-bottom: 0rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
 
-}
-.for-a{
-    color: white;
-    
-}
 

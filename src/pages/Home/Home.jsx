@@ -7,16 +7,20 @@ import Button from "../../components/Button/Button";
 
 function Home() {
   const navigate = useNavigate();
-  const login = () =>{
-    navigate('/login');
-  }
-  const registration = () =>{
-    navigate('/registration');
-  }
+  const login = () => {
+    navigate("/login");
+  };
+  const registration = () => {
+    navigate("/registration");
+  };
   return (
     <div className="home">
       <div className="for-home-screen">
+        <div className="videoTag">
+      <video src={Video} type="video/mp4" autoPlay loop muted/>
+        </div>
         <div className="explore">
+        
           <p className="for-start-para">Explore</p>
           <p className="for-middle-para">
             A roadmap to <span className="coloredtext">knowledge</span>, a
@@ -29,15 +33,15 @@ function Home() {
             <span className="coloredtext">Climb</span>, Make your stuff cleaner.
           </p>
           <div className="for-buttons">
-            <Button buttonText="Login" onClick={login}/>
-            <Button buttonText="Registration" onClick={registration}/>         
+            <Button buttonText="Login" onClick={login} />
+            <Button buttonText="Registration" onClick={registration} />
           </div>
         </div>
-        <div className="for-image-div">
-          <img className="for-home-img" src={side} />
-        </div>
+        
       </div>
-      <Branch/>
+        
+      
+      <Branch />
     </div>
   );
 }
